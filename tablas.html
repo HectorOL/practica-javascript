@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 16 - Tablas de Multiplicar</title>
+    <script src="js/P16js.js"></script>
+    <style>
+        #contenido { visibility: hidden; }
+        .incorrecto { background-color: red; }
+    </style>
+    <link rel="stylesheet" href="style/common-style.css">
+</head>
+<body>
+    <form>
+        Selecciona qué número de tabla:
+        <select id="opTabla">
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+        <input type="button" value="Ejecutar" onclick="muestra();">
+        <div id="contenido">
+            <table id="tabla" border="2">
+                <thead>
+                    <tr>
+                        <th>Operación</th>
+                        <th>Resultado</th>
+                        <th>Calificación</th>
+                    </tr>
+                </thead>
+            </table>
+            <br><br>
+            <input type="button" value="Calificar Examen" onclick="calificar();">
+            <br><br>
+            <label>Acertaste: <span id="aciertos">0</span> de 10</label>
+        </div>
+    </form>
+
+    <a href="index.html" id="regresar">Regresar al Inicio</a>
+</body>
+</html>

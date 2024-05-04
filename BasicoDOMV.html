@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-type" name="viewport" content="text/html">
+    <title>Ejercicio 11 - Dom basico y atributos CSS</title>
+    <style type="text/css">
+        .oculto {display: none;} .visible {display: inline; }
+    </style>
+    <link rel="stylesheet" href="style/common-style.css">
+    <script type="text/javascript" src="js/E11.js"></script>
+</head>
+
+<body>
+    <p class="texto">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione eum ullam necessitatibus officiis aspernatur
+        itaque, totam, aperiam veniam qui illo, maiores quis mollitia sapiente illum fugit quam ipsam. Pariatur,
+        repudiandae?
+        <span id="adicional" class="oculto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis officia
+            repellendus quia labore quasi mollitia? Pariatur aliquam tenetur voluptatem esse consequatur fugiat,
+            praesentium maiores rerum architecto iusto dicta sed accusantium.
+            <a id="enlace1" href="#" onclick="oculta()">ocultar</a><br>
+        </span>
+    </p>
+    <a href="#" id="enlace" onclick="muestra()">seguir leyendo</a><br>
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/common-style.css">
+    <title>Ejercicio 3</title>
+</head>
+<body>
+    <h1>Calculadora de promedios</h1>
+    <h2>Nueva Calificacion</h2>
+    <h3>Materia</h3>
+    <input type="text" id="materia">
+    <h3>Calificacion(0-100)</h3>
+    <input type="number" id="calificacion" value="0" min="0" max="100">
+    <button onclick="agregar()">Agregar</button>
+
+    <h2>Calificaciones</h2>
+    <table id="calificaciones">
+        <tr>
+            <th>Materia</th>
+            <th>Calificacion</th>
+        </tr>
+    </table>
+
+    <h2>Promedio</h2>  
+    <p id="promedio">0</p>
+    <a href="index.html" class="regresa">Regresar</a>
+    <script src="js/EJ3.js"></script>
+</body>
+</html>

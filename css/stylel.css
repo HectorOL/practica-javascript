@@ -1,0 +1,38 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+div{
+    margin: 10px;
+}
+
+label{
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+input[type="number"]{
+width: 200px;
+padding: 5px;
+border-radius: 5px;
+border: 1px solid #ccc;
+}
+
+button{
+    padding: 10px;
+    background-color: #008CBA;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#resultado{
+    font-weight: bold;
+}
